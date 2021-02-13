@@ -58,6 +58,7 @@ class CodeHelp(commands.Cog):
                     \nYou can also contribute to this by installing [codegrepper](https://www.codegrepper.com/) extension and marking an answer when you find it
                     ''',
                     colour=embedColour
+                    
                 )
                 await ctx.send(embed=startEmbed)
                 await ctx.send(embed=notFoundEmbed)
