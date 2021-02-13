@@ -83,6 +83,7 @@ async def command_log(client, ctx, cmd_name):
 		title = "SleepBot Command Logs",
 		description = ("Command: {}\nMessage Content: {}".format(cmd_name, ctx.message.content)),
 		colour = random.randint(0, 0xffffff)
+		
 	)
 	embed.add_field(name = "In Guild:", value = "{}".format(ctx.guild), inline = False)
 	embed.add_field(name = "In Channel:", value = "{} Channel_ID: {}".format(ctx.channel, ctx.channel.id), inline = False)
